@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #3eee12a1;
+    border: 5px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 3px 4px rgba(65, 62, 62, 0.815);
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+section {
+    margin: 20px;
+}
+
+.project {
+    width: 200px; /* Square dimensions */
+    height: 200px;
+    border: 5px solid #3eee12a1;
+    margin: 10px;
+    display: inline-block; /* Aligns the containers side by side */
+    text-align: center;
+    line-height: 200px; /* Vertically centers the text */
+    box-shadow: 5px 3px 4px rgba(65, 62, 62, 0.815);
+}
+h1, h2 {
+    color: #000000;
+}
+
+#bio, #work {
+    background-color: #3ce2127e;
+    border: 5px solid black;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 15px;
+    box-shadow: 5px 3px 4px rgba(65, 62, 62, 0.815);
+}
+
+footer {
+    background-color: #51f0297a;
+    margin: 20px;
+    text-align: center;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 3px 4px rgba(65, 62, 62, 0.815);
+}
